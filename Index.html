@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header__logo"><p>NTPROJECT</p></div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#">Pradžia</a>
+                <a href="#">Pasiūlymai</a>
+                <a href="#">Naujienos</a>
+                <a href="#">Kontaktai</a>
+                <a href="#" id="menu" class="icon">&#9776;</a>
+        </nav>
+    </header>
+    <main>       
+        <div class="main__welcome">
+            <h1>Lorem ipsum dolor <br> sit amet conset </h1>
+        </div>
+        <div class="wrapper">         
+            <div class="fotos_container">
+                <div class="white_circle">
+                    <div class="holder">
+                        <div class="slide">
+                            <p class="photos_work">
+                                <a href="#">
+                                    <img src="img/jason-briscoe-1.png" alt="stairs" />
+                                </a>
+                            </p>
+                            <div class="photos_work_caption">
+                                <div class="fotos_content">  
+                                    <p><h1>Lorem ipsum dolor sit amet</h1>
+                                    Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad... minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> 
+                                </div>
+                                 <button class="button_content">
+                                    <img src="img/arrow-pointing-to-right-1.png">
+                                </button>
+                            </div>
+                        </div>                   
+                        <div class="slide">
+                            <p class="photos_work">
+                                <a href="#">
+                                    <img src="img/tu-tu-1.png" alt="flowerpot" />
+                                </a>
+                            </p>
+                            <div class="photos_work_caption">
+                                <div class="fotos_content">   
+                                    <p><h1>Lorem ipsum dolor</h1>
+                                    Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad... minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                </div>
+                                <button class="button_content">
+                                    <img src="img/arrow-pointing-to-right-1.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slide">                    
+                            <p class="photos_work">
+                                <a href="#">
+                                    <img src="img/kirill-1.png" alt="concret" />
+                                </a>
+                            </p>
+                                <div class="photos_work_caption">
+                                    <div class="fotos_content">                            
+                                        <p><h1>Lorem ipsum dolor sit amet</h1>
+                                        Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad... minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                    </div>
+                                    <button class="button_content">
+                                        <img src="img/arrow-pointing-to-right-1.png">
+                                    </button>                                
+                                </div>                       
+                            </div>
+                        </div>
+                    <div class="photos_work_nav">
+                    </div>           
+                      <a class="prev" onclick="plusSlides(-1)"></a>
+                      <a class="next" onclick="plusSlides(1)"></a>   
+                </div>
+            </div>    
+            <div class="main_table">
+                <table>
+                     <div class="table_category">
+                        <div class="table_button">                                   
+                                <button onclick="fynction_category">
+                                    Plotas
+                                    <img src="img/arrow-pointing-to-down.png" alt="arrow">
+                                </button>
+                                <button onclick="fynction_category">
+                                    Kambarių skaičius
+                                    <img src="img/arrow-pointing-to-down.png" alt="arrow">
+                                </button>
+                                <button onclick="fynction_category">
+                                    Langų orientacija
+                                    <img src="img/arrow-pointing-to-down.png" alt="arrow">
+                                </button>
+                                <button onclick="fynction_category">
+                                    Baigtumas
+                                    <img src="img/arrow-pointing-to-down.png" alt="arrow">
+                                </button>                                                                  
+                        </div>          
+                        <div class="table_list">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nuolaida</th>
+                                    <th scope="col">Namo nr.</th>
+                                    <th scope="col">Plotas m2</th>
+                                    <th scope="col">Kambarių skaičius</th>
+                                    <th scope="col">Langų orientacija</th>
+                                    <th scope="col">Baigtumas</th>
+                                </tr>
+                            </thead>  
+                            <tbody>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-5%</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">50.17</td>
+                                    <td aria-label="Kambariųskaičius">3</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-5%</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">60.00</td>
+                                    <td aria-label="Kambariųskaičius">4</td>
+                                    <td aria-label="Plotas m2">Rytai</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-</td>
+                                    <td aria-label="Namo nr.">2</td>
+                                    <td aria-label="Plotas m2">35.00</td>
+                                    <td aria-label="Kambariųskaičius">2</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-10%</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">30.00</td>
+                                    <td aria-label="Kambariųskaičius">1</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Statoma</td>
+                                </tr>    
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">60.00</td>
+                                    <td aria-label="Kambariųskaičius">4</td>
+                                    <td aria-label="Plotas m2">Rytai</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>           
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-</td>
+                                    <td aria-label="Namo nr.">2</td>
+                                    <td aria-label="Plotas m2">35.00</td>
+                                    <td aria-label="Kambariųskaičius">2</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">50.17</td>
+                                    <td aria-label="Kambariųskaičius">3</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Statoma</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-5%</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">60.00</td>
+                                    <td aria-label="Kambariųskaičius">4</td>
+                                    <td aria-label="Plotas m2">Rytai</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-5%</td>
+                                    <td aria-label="Namo nr.">2</td>
+                                    <td aria-label="Plotas m2">35.00</td>
+                                    <td aria-label="Kambariųskaičius">2</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-5%</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">50.17</td>
+                                    <td aria-label="Kambariųskaičius">3</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Statoma</td>
+                                </tr>    
+                                <tr>
+                                    <td scope="row" aria-label="Nuolaida">-10%</td>
+                                    <td aria-label="Namo nr.">1</td>
+                                    <td aria-label="Plotas m2">60.00</td>
+                                    <td aria-label="Kambariųskaičius">4</td>
+                                    <td aria-label="Plotas m2">Rytai</td>
+                                    <td aria-label="Kambariųskaičius">Statoma</td>
+                                </tr>           
+                                <tr>
+                                    <td scope="row12" aria-label="Nuolaida">-</td>
+                                    <td aria-label="Namo nr.">2</td>
+                                    <td aria-label="Plotas m2">35.00</td>
+                                    <td aria-label="Kambariųskaičius">2</td>
+                                    <td aria-label="Plotas m2">Pietūs</td>
+                                    <td aria-label="Kambariųskaičius">Pastatyta</td>
+                                </tr>
+                            </tbody>  
+                        </div>
+                    </div>     
+                </table>   
+            </div>
+            <div class="name_gallery"><h1>Naujienos</h1></div>
+            <div class="gallery">
+                <div class="gallery_photo">
+                    <figure class="photo">
+                        <a href="#">           
+                            <img src="img/image1.png" alt="bicycle" />
+                        </a>
+                    </figure>
+                    <figure class="photo">
+                        <a href="#">           
+                            <img src="img/image2.png" alt="fether_with_son" />
+                        </a>                          
+                    </figure>
+                    <figure class="photo">
+                        <a href="#">
+                            <img src="img/image3.png" alt="stairs" />
+                         </a>               
+                    </figure>
+                    <figure class="photo">  
+                        <a href="#">          
+                            <img src="img/image4.png" alt="interior" />
+                        </a>
+                    </figure>       
+                    <figure class="photo">
+                        <a href="#">            
+                            <img src="img/image5.png" alt="pet" />
+                        </a>
+                    </figure>
+                    <figure class="photo">
+                        <a href="#">         
+                            <img src="img/image6.png" alt="sunglasses" />
+                        </a>
+                    </figure> 
+                </div>
+                <button class="gallery_button">
+                    Daugiau naujienų
+                    <img src="img/arrow-pointing-to-right-12.png">
+                </button>                          
+            </div>
+            <div class="main_team">
+                <div class="team_cards">
+                    <div class="card">
+                        <div class="photo_team">
+                            <img class="personPhoto" src="img/stefan-stefancik-1.png">
+                        </div>
+                        <h4 class="name">Agnė Valentinaitė</h4>
+                        <p class="team_contact">agne@ntprojects.com<br>+37062553454</p>      
+                    </div>
+                    <div class="card">
+                        <div class="photo_team">
+                            <img class="personPhoto" src="img/dan-1.png">
+                        </div>
+                        <h4 class="name">Kamilė Henderson</h4>
+                        <p class="team_contact">kamile@ntprojects.com<br>+37064567893</p>
+                    </div>
+                    <div class="card">
+                        <div class="photo_team">
+                            <img class="personPhoto" src="img/natashia-shukla-1.png">
+                        </div>
+                        <h4 class="name">Tomas Petkevičius</h4>
+                        <p class="team_contact">tomas@ntprojects.com<br>+37060567843</p>
+                    </div>
+                </div>
+                <div class="contact_form">               
+                    <div class="content">
+                        <h1> Sužinok apie projektą daugiau </h1>
+                        <form action=" " method="post"  autocomplete="on">
+                            <p> <label for="username" class="iconic_user" ><span class="required"></span></label> <input type="text" name="username" id="username"  required="required" placeholder="Jūsų vardas"  /> </p>                     
+                            <p> <label for="usermail" class="iconic_mail_alt"><span class="required"></span></label> <input type="email" name="usermail" id="usermail" placeholder="El. Paštas" required="required"  /></p>                     
+                            <p> <label for="usertel" class="tel"><span class="required"></span></label><input type="number" name="telphone" class="raz" placeholder="Telefono numeris" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12"  title="Ten digits code" required /></p>                    
+                            <p> <label for="message" class="iconic comment"><span class="required"></span></label><input type="message" name=""  placeholder="Žinutė" /></p>
+                            <label><input type="checkbox" name="" value="" id="checkbox"></span><p>Lorem ipsum, dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore minim <u>ntprojects@info.com</u></p></label> 
+                            <button type="submit" id="content_button" />Siųsti
+                                <img src="img/arrow-pointing-to-right-12.png">
+                            </button>                             
+                        </form>
+                    </div>                
+                 </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="first_block">                
+                <p><a href="#" target="_blank"><h2>Apie statytoją</h2></p>
+                <p><a href="#" target="_blank">Lorem ipsum</p>
+                <p><a href="#" target="_blank">Dolor sit amet</p>  
+            </div>
+            <div class="second_block">
+                <p><a href="#" target="_blank"><h2>Saugumas</h2></p>
+                <p><a href="#" target="_blank">Consectetur adipiscing </p>
+                <p><a href="#" target="_blank">Sed do eiusmod</p>
+            </div>
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="img/insta.png" alt=""></a>
+            </div> 
+        </div>  
+    </footer>
+<script src="script.js"></script>
+</body>
+</html> 
+
+          
+        
